@@ -102,3 +102,7 @@ set termguicolors
 lua << EOF
 require("bufferline").setup{}
 EOF
+
+" --- Set to italic font --- 
+let g:airline_italics = 1 
+
