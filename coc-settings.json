@@ -1,0 +1,19 @@
+{
+    "languageserver": {
+         "terraform": {
+              "command": "terraform-ls",
+              "args": ["serve"],
+              "trace.server": "verbose",
+              "filetypes": [
+                  "terraform",
+                  "tf"
+              ],
+              "initializationOptions": {},
+              "settings": {}
+          }
+    },
+    "snippets.ultisnips.pythonPrompt": false
+}
+
+
+
