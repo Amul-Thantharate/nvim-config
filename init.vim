@@ -47,6 +47,8 @@ Plug 'navarasu/onedark.nvim'
 Plug 'nvim-tree/nvim-web-devicons' " Recommended (for coloured icons)
 " Plug 'ryanoasis/vim-devicons' Icons without colours
 Plug 'akinsho/bufferline.nvim', { 'tag': '*' }
+Plug 'pprovost/vim-ps1'
+Plug 'andrewstuart/vim-kubernetes'
 set encoding=UTF-8
 
 call plug#end()
