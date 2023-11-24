@@ -49,7 +49,12 @@ Plug 'nvim-tree/nvim-web-devicons' " Recommended (for coloured icons)
 Plug 'akinsho/bufferline.nvim', { 'tag': '*' }
 Plug 'pprovost/vim-ps1'
 Plug 'andrewstuart/vim-kubernetes'
+Plug 'ekalinin/Dockerfile.vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'pearofducks/ansible-vim'
+
 set encoding=UTF-8
+
 
 call plug#end()
 
