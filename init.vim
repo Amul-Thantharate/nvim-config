@@ -52,11 +52,14 @@ Plug 'andrewstuart/vim-kubernetes'
 Plug 'ekalinin/Dockerfile.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'pearofducks/ansible-vim'
+Plug 'drewtempelmeyer/palenight.vim'
 
 set encoding=UTF-8
 
 
 call plug#end()
+
+:colorscheme purify
 
 nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
@@ -66,9 +69,6 @@ nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
 nmap <F8> :TagbarToggle<CR>
 
 :set completeopt-=preview " For No Previews
-
-:colorscheme ayu
-
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
 
@@ -97,8 +97,6 @@ let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
 
 inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm() : "<Tab>"
-
-" --- Just Some Notes --- 
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
@@ -112,4 +110,4 @@ EOF
 
 " --- Set to italic font --- 
 let g:airline_italics = 1 
-
+let font = "Cartograph CF:h12"
