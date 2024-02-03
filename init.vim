@@ -111,3 +111,4 @@ EOF
 " --- Set to italic font --- 
 let g:airline_italics = 1 
 let font = "Cartograph CF:h12"
+let font = "Cartograph CF:h12"
